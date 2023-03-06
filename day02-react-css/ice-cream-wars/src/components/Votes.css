@@ -1,0 +1,45 @@
+.Votes {
+    padding: 20px;
+}
+
+.Votes h2 {
+    font-family: "Caveat", cursive;
+}
+
+.Votes button {
+    background-color: #0e3c7e;
+    border: none;
+    padding: 5px;
+    color: white;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.Votes .bar {
+    height: 30px;
+    width: 100px;
+}
+
+.Votes .vote-info {
+    margin-top: 10px;
+}
+
+.Votes .chocolate {
+    background-color: brown;
+}
+
+.Votes .vanilla {
+    background-color: burlywood;
+}
+
+.Votes .strawberry {
+    background-color: palevioletred;
+}
+
+button:enabled:active {
+    color: #1e60a9;
+}
+
+button:disabled {
+    background-color: gray;
+}

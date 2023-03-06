@@ -1,0 +1,19 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgb(190, 190, 190);
+}
+
+.Header h1 {
+    font-family: "Caveat", cursive;
+    color: #0e3c7e
+}
+
+button:enabled:active {
+    color: #1e60a9;
+}
+
+button:disabled {
+    background-color: gray;
+}
