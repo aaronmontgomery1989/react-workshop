@@ -1,0 +1,106 @@
+/* resets */
+body,
+p,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* global styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* App.css ------------------------------------------------*/
+
+.App {
+  padding: 30px;
+}
+
+/* ToDoHome.css ------------------------------------------------*/
+
+.ToDoList ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ToDoList .priority-1 {
+  background-color: #bb4430;
+}
+.ToDoList .priority-2 {
+  background-color: #d9aa1c;
+}
+.ToDoList .priority-3 {
+  background-color: #489299;
+}
+
+/* ToDoForm.css ------------------------------------------------*/
+
+.ToDoForm {
+  padding: 40px;
+  background-color: #231f20;
+  color: #fff;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ToDoForm .submit-btn {
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  font-weight: bolder;
+  background-color: #efe6dd;
+}
+
+.ToDoForm .error {
+  color: #ff5335;
+  font-style: oblique;
+  margin: 5px 0 10px 0;
+}
+
+.ToDoForm button:hover {
+  cursor: pointer;
+  background-color: #000;
+  color: #efe6dd;
+}
+
+/* ToDoItem.css ------------------------------------------------ */
+
+.ToDoItem {
+  margin: 10px;
+}
+
+.ToDoItem.complete {
+  text-decoration: line-through;
+}
+
+.ToDoItem.complete .task,
+.ToDoItem.complete .due-date {
+  opacity: 25%;
+}
+
+.ToDoItem .task {
+  font-weight: bolder;
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.ToDoItem button {
+  border: none;
+  border-radius: 30px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  font-weight: bolder;
+  background-color: #efe6dd;
+}
+
+.ToDoItem button:hover {
+  cursor: pointer;
+  background-color: #231f20;
+  color: #efe6dd;
+}
