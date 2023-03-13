@@ -1,0 +1,13 @@
+/* resets */
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Homemade Apple', 'Dosis';
+  background-color: #f3f1f7;
+}

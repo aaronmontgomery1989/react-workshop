@@ -1,0 +1,28 @@
+.PostInList {
+    background-color: white;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    border-radius: 5px;
+    width: 100%;
+    text-align: initial;
+    font-family: 'Dosis';
+}
+
+.PostInList > form > div {
+    display: inline-block;
+    width: 75%;
+}
+
+.PostInList > form > div > .Thought {
+    word-wrap: break-word;
+}
+
+.PostInList > form > button {
+    float: right;
+    background-color: white;
+    border: none;
+    padding: 0;
+    margin-right: 10px;
+}
